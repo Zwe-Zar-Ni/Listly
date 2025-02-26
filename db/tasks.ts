@@ -108,31 +108,13 @@ export const getTasks = async () => {
       if (!tk.due_date) return;
       obj.todayTasks.push(tk);
       return;
-      // db.getFirstAsync<any>(
-      //   "SELECT * FROM task_history WHERE task_id = ? AND completed_for = ?",
-      //   tk.id,
-      //   tk.due_date
-      // ).then((res: History) => {
-      //   if (!res) {
-      //     obj.todayTasks.push(tk);
-      //   }
-      // });
     } else if (
       tk.due_date == null ||
       isAfter(new Date(tk.due_date), new Date())
     ) {
       if (!tk.due_date) return;
-      obj.todayTasks.push(tk);
+      obj.futureTasks.push(tk);
       return;
-      // db.getFirstAsync<any>(
-      //   "SELECT * FROM task_history WHERE task_id = ? AND completed_for = ?",
-      //   tk.id,
-      //   tk.due_date
-      // ).then((res: History) => {
-      //   if (!res) {
-      //     obj.todayTasks.push(tk);
-      //   }
-      // });
     }
   });
   return obj;

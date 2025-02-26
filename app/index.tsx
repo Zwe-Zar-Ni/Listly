@@ -39,7 +39,7 @@ const Index = () => {
             className="text-4xl tracking-[1.25px] font-pextrabold"
             style={{ color: pallatte.primary }}
           >
-            Listify
+            Listly
           </Text>
           <Text className="font-pregular" style={{ color: pallatte.text }}>
             Simplify your tasks, amplify your days.
