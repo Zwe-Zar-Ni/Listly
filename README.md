@@ -52,7 +52,7 @@ A perfect app to stay on top of your tasks efficiently! 🚀
 
 
 ## 🚀 About Me
-Sup! I'm a web developer specializing in frontend development. I work mostly with JavaScript, Vue, React, Next.js, and React Native. I enjoy building clean and user-friendly interfaces.
+Sup! I'm a software developer specializing in frontend development (web and mobile). I work mostly with JavaScript, Vue, React, Next.js, and React Native. I enjoy building clean and user-friendly interfaces.
 
 Right now, I'm working at a Japanese telecom company based in Tokyo, Japan. I love solving problems, learning new things, and improving my skills every day. When I’m not coding, I like to explore new tech, work out, and focus on self-improvement.
 
